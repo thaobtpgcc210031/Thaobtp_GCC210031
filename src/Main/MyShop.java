@@ -504,7 +504,7 @@ public class MyShop extends javax.swing.JFrame {
         String name = (String) tbCan.getValueAt(r, 1);
         txtName1.setText(name);
         String nameP = (String) tbCan.getValueAt(r, 2);
-      txtNameP.setText(name);
+      txtNameP.setText(nameP);
         String Adress = (String) tbCan.getValueAt(r, 4);
         txtAdress.setText(Adress.toString());
         String type = (String) tbCan.getValueAt(r, 5);
