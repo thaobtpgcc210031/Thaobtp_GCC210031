@@ -608,7 +608,9 @@ rdFemale.setSelected(false);
 
     private  void updateCan(){
         ShopD c = canList.get(currentRow); //se bi sai neu currenRow laf -1, 
-        c.setName(txtNameP.getText());
+        c.setID(txtId.getText());
+        c.setName(txtName1.getText());
+        c.setNameP(txtNameP.getText());
 //        c.setAverage(Double.parseDouble(txtMark.getText()));
 c.setAdress(txtAdress.getText());
         c.setGender(Boolean.parseBoolean(grGender.getSelection().getActionCommand()));
