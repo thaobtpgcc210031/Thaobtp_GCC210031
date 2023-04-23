@@ -615,6 +615,11 @@ rdFemale.setSelected(false);
 c.setAdress(txtAdress.getText());
         c.setGender(Boolean.parseBoolean(grGender.getSelection().getActionCommand()));
         c.setType(cbtype.getSelectedItem().toString());
+         ;
+         Date date = txtDate.getDate();
+        String dateD = XDate.DateToString(date);
+        c.setDate(XDate.DateToString(date));
+        
     }
 private void setBtnGroup(String value){
      for (Component c : jPanel1.getComponents()){
